@@ -1,3 +1,38 @@
-# 깃허브에 올라가면 안되는 인증키 기록
-confidencial.json
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# VSCode settings
+.vscode/
+
+# Mac/Windows OS files
+.DS_Store
+Thumbs.db
+
+# dotenv 환경 변수 파일
 .env
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Log files
+*.log
+
+# Streamlit cache
+.streamlit/
+
+# MyPy, coverage, pyright cache
+.mypy_cache/
+.pyright/
+
+# Pipenv, Poetry lock
+Pipfile.lock
+poetry.lock
