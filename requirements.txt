@@ -1,3 +1,7 @@
-streamlit
-openai>=1.0.0
+fastapi
+uvicorn
+openai
 python-dotenv
+supabase
+requests
+pydantic
